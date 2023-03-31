@@ -258,13 +258,13 @@ public class MainActivity extends AppCompatActivity implements GestureDetector.O
         float x_M2 = Math.abs(Math.abs(x_remove) - Math.abs(x_2));
         float y_M2 = Math.abs(Math.abs(x_remove) - Math.abs(y_2));
 
-        System.out.println("kkkkkkkkkkkkkkkk"+" "+x_remove+"   "+y_remove+"   "+"abs："+x_M1+" "+y_M1+" startloction:   "+ x_1 +" "+y_1);
+        System.out.println("kkkkkkkkkkkkkkkk"+" "+x_remove+"   "+y_remove+"   "+"abs："+x_M2+" "+y_M2+" startloction:   "+ x_1 +" "+y_1);
 
 
-        if (x_M1<40&&y_M1<40){
+        if (x_M1<100&&y_M1<100){
             imageView1.setVisibility(View.GONE);
         }
-        if (x_M2<20&&y_M2<20){
+        if (x_M2<100&&y_M2<1400){
             imageView2.setVisibility(View.GONE);
 
         }
